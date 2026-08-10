@@ -1,0 +1,342 @@
+/* ==========================================================================
+   RS FITNESS CENTRE - "ENERGY IN MOTION" REDESIGN
+   Contemporary International Fitness & Wellness Studio
+   Palette: Warm Ivory • Deep Graphite • Electric Coral • Muted Sage
+   Location: 9G/2, New Panchanan Tala Road, Belgharia, Kolkata – 700056
+   ========================================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,600&family=Syne:wght@700;800;900&family=Space+Grotesk:wght@500;600;700&display=swap');
+
+:root {
+  /* Core Color System (Bright, Clean, High-Contrast Editorial) */
+  --bg-ivory: #fbf9f5;
+  --bg-ivory-warm: #f4efe6;
+  --bg-white: #ffffff;
+  --bg-sand: #eee8dc;
+  --bg-graphite: #121316;
+  --bg-graphite-card: #1a1c22;
+
+  /* Accent: Electric Coral / Vibrant Orange-Red */
+  --coral-pure: #ff4d30;
+  --coral-deep: #e6391d;
+  --coral-light: #ff6f57;
+  --coral-muted: rgba(255, 77, 48, 0.12);
+  --coral-glow: rgba(255, 77, 48, 0.3);
+
+  /* Supporting: Muted Sage Green */
+  --sage-deep: #2c4338;
+  --sage-main: #4a6b5d;
+  --sage-light: #e4ece7;
+  --sage-border: #cadad0;
+
+  /* Typography Colors */
+  --text-dark: #121316;
+  --text-secondary: #4a4e5a;
+  --text-muted: #787d8c;
+  --text-light: #fbf9f5;
+  --text-coral: #ff4d30;
+
+  /* Borders & Editorial Lines */
+  --border-light: #e6e1d6;
+  --border-dark: #2a2d36;
+  --border-coral: #ff4d30;
+
+  /* Typography Stacks */
+  --font-display: 'Syne', 'Outfit', sans-serif;
+  --font-heading: 'Syne', 'Plus Jakarta Sans', sans-serif;
+  --font-body: 'Plus Jakarta Sans', sans-serif;
+  --font-mono: 'Space Grotesk', monospace;
+
+  /* Layout Boundaries */
+  --max-width: 1500px;
+  --header-height: 98px;
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-pill: 9999px;
+
+  /* Transitions */
+  --transition-fast: 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-smooth: 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-slow: 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* ==========================================================================
+   CSS RESET & EDITORIAL BASE
+   ========================================================================== */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--bg-ivory);
+  color: var(--text-dark);
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+body {
+  min-height: 100vh;
+  background: var(--bg-ivory);
+  color: var(--text-dark);
+  overflow-x: hidden;
+  position: relative;
+}
+
+::selection {
+  background: var(--coral-pure);
+  color: #ffffff;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-ivory);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--coral-pure);
+  border-radius: var(--radius-pill);
+}
+
+img, picture, svg, video {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: all var(--transition-fast);
+}
+
+button, input, textarea, select {
+  font: inherit;
+  color: inherit;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+/* ==========================================================================
+   CONTAINER & LAYOUT UTILITIES
+   ========================================================================== */
+
+.container {
+  width: 100%;
+  max-width: var(--max-width);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: clamp(1.25rem, 4vw, 3rem);
+  padding-right: clamp(1.25rem, 4vw, 3rem);
+  position: relative;
+}
+
+.container-fluid {
+  width: 100%;
+  padding-left: clamp(1.25rem, 4vw, 3rem);
+  padding-right: clamp(1.25rem, 4vw, 3rem);
+}
+
+.section {
+  padding-top: clamp(5rem, 8vw, 8.5rem);
+  padding-bottom: clamp(5rem, 8vw, 8.5rem);
+  position: relative;
+}
+
+.section-white {
+  background-color: var(--bg-white);
+}
+
+.section-warm {
+  background-color: var(--bg-ivory-warm);
+}
+
+.section-dark {
+  background-color: var(--bg-graphite);
+  color: var(--text-light);
+}
+
+.section-sage {
+  background-color: var(--sage-light);
+}
+
+/* ==========================================================================
+   EDITORIAL TYPOGRAPHY
+   ========================================================================== */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  font-weight: 800;
+  line-height: 0.98;
+  letter-spacing: -0.03em;
+  color: var(--text-dark);
+  text-transform: uppercase;
+}
+
+.section-dark h1,
+.section-dark h2,
+.section-dark h3,
+.section-dark h4 {
+  color: var(--text-light);
+}
+
+.text-coral {
+  color: var(--coral-pure);
+}
+
+.text-sage {
+  color: var(--sage-deep);
+}
+
+.text-muted {
+  color: var(--text-muted);
+}
+
+/* Editorial Uppercase Section Tag */
+.editorial-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  color: var(--coral-pure);
+  margin-bottom: 1.5rem;
+}
+
+.editorial-tag::before {
+  content: '';
+  width: 18px;
+  height: 2px;
+  background: var(--coral-pure);
+}
+
+.editorial-title {
+  font-size: clamp(2.5rem, 5.5vw, 5.25rem);
+  font-weight: 900;
+  line-height: 0.96;
+  letter-spacing: -0.04em;
+  margin-bottom: 1.5rem;
+}
+
+.editorial-subtitle {
+  font-size: clamp(1.1rem, 1.4vw, 1.3rem);
+  color: var(--text-secondary);
+  line-height: 1.6;
+  max-width: 600px;
+}
+
+.section-dark .editorial-subtitle {
+  color: #a2a6b4;
+}
+
+/* Editorial Line Dividers */
+.editorial-hr {
+  width: 100%;
+  height: 1px;
+  background: var(--border-light);
+  border: none;
+  margin: 3.5rem 0;
+}
+
+/* ==========================================================================
+   BUTTONS & ACTIONS
+   ========================================================================== */
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 1rem 2.25rem;
+  font-family: var(--font-mono);
+  font-size: 0.875rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  border-radius: var(--radius-pill);
+  transition: all var(--transition-smooth);
+  position: relative;
+  white-space: nowrap;
+}
+
+.btn-coral {
+  background: var(--coral-pure);
+  color: #ffffff;
+  border: 1px solid var(--coral-pure);
+  box-shadow: 0 8px 24px var(--coral-glow);
+}
+
+.btn-coral:hover {
+  background: var(--coral-deep);
+  border-color: var(--coral-deep);
+  transform: translateY(-2px);
+  box-shadow: 0 12px 30px rgba(230, 57, 29, 0.4);
+  color: #fff;
+}
+
+.btn-outline-dark {
+  background: transparent;
+  color: var(--text-dark);
+  border: 1.5px solid var(--text-dark);
+}
+
+.btn-outline-dark:hover {
+  background: var(--text-dark);
+  color: #ffffff;
+  transform: translateY(-2px);
+}
+
+.btn-outline-light {
+  background: transparent;
+  color: var(--text-light);
+  border: 1.5px solid rgba(255, 255, 255, 0.35);
+}
+
+.btn-outline-light:hover {
+  background: #ffffff;
+  color: var(--bg-graphite);
+  border-color: #ffffff;
+  transform: translateY(-2px);
+}
+
+.btn-arrow-icon {
+  font-size: 1.15rem;
+  transition: transform var(--transition-fast);
+}
+
+.btn:hover .btn-arrow-icon {
+  transform: translateX(4px);
+}
+
+.btn-sm {
+  padding: 0.65rem 1.4rem;
+  font-size: 0.8125rem;
+}
+
+.btn-lg {
+  padding: 1.25rem 2.75rem;
+  font-size: 0.9375rem;
+}
