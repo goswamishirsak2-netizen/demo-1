@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="gal6" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f0fdf4"/>
+      <stop offset="100%" stop-color="#bbf7d0"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" rx="12" fill="url(#gal6)"/>
+
+  <!-- Classroom Fun Circle of Learning -->
+  <circle cx="300" cy="220" r="140" fill="#ffffff" stroke="#16a34a" stroke-width="4"/>
+  
+  <!-- Educational Icons in Circle -->
+  <!-- Book -->
+  <g transform="translate(265, 120)">
+    <rect x="0" y="0" width="70" height="45" rx="4" fill="#3b82f6"/>
+    <path d="M 35 0 L 35 45" stroke="#ffffff" stroke-width="2"/>
+  </g>
+  <!-- Math numbers -->
+  <text x="190" y="235" font-family="'Plus Jakarta Sans', sans-serif" font-size="32" font-weight="800" fill="#f59e0b">1 2 3</text>
+  <text x="350" y="235" font-family="'Plus Jakarta Sans', sans-serif" font-size="32" font-weight="800" fill="#ef4444">A B C</text>
+
+  <!-- Globe & Earth -->
+  <circle cx="300" cy="275" r="30" fill="#0ea5e9"/>
+  <path d="M 285 270 Q 300 255 315 270 Q 320 290 300 300 Z" fill="#22c55e"/>
+
+  <text x="300" y="55" font-family="'Plus Jakarta Sans', sans-serif" font-size="22" font-weight="800" fill="#14532d" text-anchor="middle">Everyday Joyful Classroom Moments</text>
+  <text x="300" y="85" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" font-weight="600" fill="#166534" text-anchor="middle">Foundational Learning with Care & Smiles</text>
+</svg>

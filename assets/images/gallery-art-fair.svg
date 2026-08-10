@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="gal4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fdf4ff"/>
+      <stop offset="100%" stop-color="#fae8ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" rx="12" fill="url(#gal4)"/>
+
+  <!-- Pinboard with Children's Drawings & Origami -->
+  <rect x="50" y="40" width="500" height="320" rx="12" fill="#d97706" stroke="#92400e" stroke-width="6"/>
+  <rect x="65" y="55" width="470" height="290" rx="6" fill="#fef3c7"/>
+
+  <!-- Artwork 1 (Sunflowers) -->
+  <g transform="translate(85, 75)">
+    <rect x="0" y="0" width="130" height="110" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+    <circle cx="10" cy="10" r="4" fill="#ef4444"/> <!-- Pushpin -->
+    <!-- Flower drawing -->
+    <circle cx="65" cy="55" r="16" fill="#854d0e"/>
+    <circle cx="65" cy="30" r="10" fill="#facc15"/>
+    <circle cx="65" cy="80" r="10" fill="#facc15"/>
+    <circle cx="40" cy="55" r="10" fill="#facc15"/>
+    <circle cx="90" cy="55" r="10" fill="#facc15"/>
+    <text x="65" y="100" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#64748b" text-anchor="middle">Sunflowers - Class 1</text>
+  </g>
+
+  <!-- Artwork 2 (Origami Birds) -->
+  <g transform="translate(235, 75)">
+    <rect x="0" y="0" width="130" height="110" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+    <circle cx="10" cy="10" r="4" fill="#3b82f6"/>
+    <!-- Origami Crane -->
+    <polygon points="65,30 95,50 65,70 35,50" fill="#06b6d4"/>
+    <polygon points="65,30 65,70 85,85" fill="#0284c7"/>
+    <text x="65" y="100" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#64748b" text-anchor="middle">Origami Birds - KG</text>
+  </g>
+
+  <!-- Artwork 3 (Clay Models) -->
+  <g transform="translate(385, 75)">
+    <rect x="0" y="0" width="130" height="110" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+    <circle cx="10" cy="10" r="4" fill="#10b981"/>
+    <!-- Landscape -->
+    <path d="M 10 90 L 45 40 L 80 90 Z" fill="#22c55e"/>
+    <path d="M 60 90 L 95 30 L 125 90 Z" fill="#15803d"/>
+    <circle cx="100" cy="30" r="12" fill="#f59e0b"/>
+    <text x="65" y="100" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#64748b" text-anchor="middle">Nature Art - Class 3</text>
+  </g>
+
+  <!-- Bottom Artwork Row Banner -->
+  <g transform="translate(85, 205)">
+    <rect x="0" y="0" width="430" height="120" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+    <text x="215" y="65" font-family="'Plus Jakarta Sans', sans-serif" font-size="20" font-weight="800" fill="#a21caf" text-anchor="middle">Annual Children's Art Exhibition</text>
+    <text x="215" y="90" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" font-weight="600" fill="#64748b" text-anchor="middle">Creativity & Imagination at Mukul Bithi</text>
+  </g>
+</svg>

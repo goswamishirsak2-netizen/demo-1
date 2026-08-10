@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="gal2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ecfdf5"/>
+      <stop offset="100%" stop-color="#6ee7b7"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" rx="12" fill="url(#gal2)"/>
+
+  <!-- Running Track Lanes -->
+  <path d="M 0 280 Q 300 220 600 280" stroke="#f43f5e" stroke-width="40" fill="none"/>
+  <path d="M 0 330 Q 300 270 600 330" stroke="#fb7185" stroke-width="40" fill="none"/>
+  <path d="M 0 380 Q 300 320 600 380" stroke="#fda4af" stroke-width="40" fill="none"/>
+  <!-- Lane White Dashed Lines -->
+  <path d="M 0 305 Q 300 245 600 305" stroke="#ffffff" stroke-width="3" stroke-dasharray="15,15" fill="none"/>
+  <path d="M 0 355 Q 300 295 600 355" stroke="#ffffff" stroke-width="3" stroke-dasharray="15,15" fill="none"/>
+
+  <!-- Winner Podium 1 2 3 -->
+  <g transform="translate(180, 80)">
+    <!-- 2nd Place -->
+    <rect x="20" y="80" width="60" height="80" rx="4" fill="#3b82f6"/>
+    <text x="50" y="130" font-family="'Plus Jakarta Sans', sans-serif" font-size="28" font-weight="800" fill="#ffffff" text-anchor="middle">2</text>
+    <!-- 1st Place -->
+    <rect x="90" y="40" width="60" height="120" rx="4" fill="#f59e0b"/>
+    <text x="120" y="100" font-family="'Plus Jakarta Sans', sans-serif" font-size="34" font-weight="800" fill="#ffffff" text-anchor="middle">1</text>
+    <polygon points="120,10 123,20 133,20 125,26 128,36 120,30 112,36 115,26 107,20 117,20" fill="#fbbf24"/>
+    <!-- 3rd Place -->
+    <rect x="160" y="100" width="60" height="60" rx="4" fill="#10b981"/>
+    <text x="190" y="145" font-family="'Plus Jakarta Sans', sans-serif" font-size="28" font-weight="800" fill="#ffffff" text-anchor="middle">3</text>
+  </g>
+
+  <!-- Title Badge -->
+  <text x="300" y="45" font-family="'Plus Jakarta Sans', sans-serif" font-size="20" font-weight="800" fill="#065f46" text-anchor="middle">Annual Sports & Athletic Meet</text>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="fc2Bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff7ed"/>
+      <stop offset="100%" stop-color="#ffedd5"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" rx="16" fill="url(#fc2Bg)"/>
+
+  <!-- Round Activity Table with Colorful Building Blocks -->
+  <ellipse cx="300" cy="270" rx="200" ry="70" fill="#fed7aa"/>
+  <ellipse cx="300" cy="260" rx="180" ry="60" fill="#ffffff"/>
+
+  <!-- Sensory Play Blocks & Puzzles on Table -->
+  <rect x="220" y="220" width="40" height="40" rx="6" fill="#ef4444"/>
+  <circle cx="280" cy="240" r="20" fill="#3b82f6"/>
+  <polygon points="340,215 365,255 315,255" fill="#f59e0b"/>
+  <rect x="360" y="220" width="40" height="40" rx="6" fill="#10b981"/>
+
+  <!-- Colorful Storage Cubbies in Background -->
+  <g transform="translate(120, 60)">
+    <rect x="0" y="0" width="360" height="120" rx="8" fill="#d97706"/>
+    <!-- Cubby boxes -->
+    <rect x="15" y="15" width="70" height="90" rx="4" fill="#fef3c7"/>
+    <rect x="100" y="15" width="70" height="90" rx="4" fill="#dbeafe"/>
+    <rect x="185" y="15" width="70" height="90" rx="4" fill="#dcfce7"/>
+    <rect x="270" y="15" width="70" height="90" rx="4" fill="#fce7f3"/>
+  </g>
+</svg>

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="stoBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fefce8"/>
+      <stop offset="100%" stop-color="#fef08a"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" rx="16" fill="url(#stoBg)"/>
+
+  <!-- Giant Open Storybook with Magical Characters Rising -->
+  <g transform="translate(150, 180)">
+    <!-- Book Spines and Pages -->
+    <path d="M 0 100 Q 150 70 150 140 Q 150 70 300 100 L 300 130 Q 150 100 150 170 Q 150 100 0 130 Z" fill="#b45309"/>
+    <path d="M 5 90 Q 150 60 150 130 Q 150 60 295 90 L 295 120 Q 150 90 150 160 Q 150 90 5 120 Z" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+    
+    <!-- Text lines on book -->
+    <line x1="30" y1="95" x2="120" y2="90" stroke="#94a3b8" stroke-width="3" stroke-linecap="round"/>
+    <line x1="30" y1="108" x2="120" y2="103" stroke="#94a3b8" stroke-width="3" stroke-linecap="round"/>
+    <line x1="30" y1="121" x2="100" y2="116" stroke="#94a3b8" stroke-width="3" stroke-linecap="round"/>
+
+    <line x1="180" y1="90" x2="270" y2="95" stroke="#94a3b8" stroke-width="3" stroke-linecap="round"/>
+    <line x1="180" y1="103" x2="270" y2="108" stroke="#94a3b8" stroke-width="3" stroke-linecap="round"/>
+    <line x1="180" y1="116" x2="250" y2="121" stroke="#94a3b8" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- Fairy Tale Castle & Stars Rising From Book -->
+  <g transform="translate(240, 50)">
+    <!-- Castle towers -->
+    <rect x="20" y="50" width="30" height="70" fill="#3b82f6"/>
+    <polygon points="15,50 35,20 55,50" fill="#ef4444"/>
+    <rect x="70" y="50" width="30" height="70" fill="#3b82f6"/>
+    <polygon points="65,50 85,20 105,50" fill="#ef4444"/>
+    <rect x="40" y="70" width="40" height="50" fill="#60a5fa"/>
+    <path d="M 50 120 L 50 95 Q 60 85 70 95 L 70 120 Z" fill="#1e293b"/>
+  </g>
+
+  <!-- Magic Sparkles & Stars -->
+  <g fill="#f59e0b">
+    <polygon points="180,60 184,70 195,70 186,77 189,88 180,82 171,88 174,77 165,70 176,70"/>
+    <polygon points="400,80 403,87 411,87 404,92 407,100 400,95 393,100 396,92 389,87 397,87"/>
+    <circle cx="150" cy="120" r="4"/>
+    <circle cx="440" cy="140" r="5"/>
+  </g>
+</svg>

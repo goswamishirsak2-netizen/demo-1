@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="artBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff5eb"/>
+      <stop offset="100%" stop-color="#fed7aa"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" rx="16" fill="url(#artBg)"/>
+  
+  <!-- Wooden Easel -->
+  <polygon points="260,60 280,60 380,340 350,340" fill="#a16207"/>
+  <polygon points="340,60 320,60 220,340 250,340" fill="#a16207"/>
+  <rect x="290" y="50" width="20" height="310" fill="#854d0e"/>
+  
+  <!-- Canvas Board -->
+  <rect x="180" y="90" width="240" height="180" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="4"/>
+  
+  <!-- Child Painting Artwork on Canvas -->
+  <!-- Sun & Rainbow painting -->
+  <circle cx="230" cy="140" r="22" fill="#f59e0b"/>
+  <path d="M 220 220 Q 300 130 380 220" fill="none" stroke="#ef4444" stroke-width="8" stroke-linecap="round"/>
+  <path d="M 225 225 Q 300 145 375 225" fill="none" stroke="#f59e0b" stroke-width="8" stroke-linecap="round"/>
+  <path d="M 230 230 Q 300 160 370 230" fill="none" stroke="#10b981" stroke-width="8" stroke-linecap="round"/>
+  <path d="M 235 235 Q 300 175 365 235" fill="none" stroke="#3b82f6" stroke-width="8" stroke-linecap="round"/>
+
+  <!-- Artist Palette with Colors -->
+  <g transform="translate(410, 240)">
+    <path d="M 60 10 C 120 20 130 110 80 120 C 50 125 10 100 15 50 C 18 20 40 5 60 10 Z" fill="#fef3c7" stroke="#d97706" stroke-width="3"/>
+    <circle cx="100" cy="90" r="10" fill="#fff5eb" stroke="#d97706" stroke-width="2"/> <!-- Thumb hole -->
+    <circle cx="45" cy="40" r="10" fill="#ef4444"/>
+    <circle cx="75" cy="35" r="10" fill="#3b82f6"/>
+    <circle cx="100" cy="50" r="10" fill="#10b981"/>
+    <circle cx="50" cy="75" r="10" fill="#f59e0b"/>
+    <circle cx="80" cy="80" r="10" fill="#8b5cf6"/>
+  </g>
+
+  <!-- Paint Brushes in Pot -->
+  <g transform="translate(100, 250)">
+    <rect x="20" y="50" width="50" height="60" rx="8" fill="#3b82f6"/>
+    <polygon points="35,10 40,50 45,50 40,10" fill="#d97706"/>
+    <polygon points="32,2 43,2 40,10" fill="#ef4444"/>
+    <polygon points="50,15 55,50 60,50 55,15" fill="#d97706"/>
+    <polygon points="48,5 58,5 55,15" fill="#10b981"/>
+  </g>
+</svg>

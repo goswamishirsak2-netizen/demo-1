@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="fc5Bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#e2e8f0"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" rx="16" fill="url(#fc5Bg)"/>
+
+  <!-- Shield of Protection -->
+  <g transform="translate(180, 70)">
+    <path d="M 120 20 C 190 20 230 40 230 110 C 230 200 160 250 120 280 C 80 250 10 200 10 110 C 10 40 50 20 120 20 Z" fill="#0d203b" stroke="#f8b739" stroke-width="4"/>
+    
+    <!-- Security CCTV Camera Icon inside Shield -->
+    <g transform="translate(70, 70)">
+      <!-- Camera body -->
+      <polygon points="20,40 70,30 70,70 20,60" fill="#38bdf8"/>
+      <rect x="0" y="32" width="22" height="36" rx="4" fill="#0284c7"/>
+      <circle cx="10" cy="50" r="7" fill="#0369a1"/>
+      <circle cx="10" cy="50" r="3" fill="#f87171"/> <!-- Red Recording indicator -->
+      <!-- Wall mount bracket -->
+      <path d="M 68 50 L 95 50 L 95 25" fill="none" stroke="#f8b739" stroke-width="6" stroke-linecap="round"/>
+    </g>
+
+    <!-- Checkmark of Verified Safety -->
+    <path d="M 90 190 L 115 215 L 160 165" fill="none" stroke="#22c55e" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

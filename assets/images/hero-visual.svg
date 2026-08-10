@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e8f3fc"/>
+      <stop offset="50%" stop-color="#fdfbf7"/>
+      <stop offset="100%" stop-color="#fef5e7"/>
+    </linearGradient>
+    <linearGradient id="sunGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffb74d"/>
+      <stop offset="100%" stop-color="#f39c12"/>
+    </linearGradient>
+    <linearGradient id="hillGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2ecc71"/>
+      <stop offset="100%" stop-color="#12794b"/>
+    </linearGradient>
+    <linearGradient id="navyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#15325b"/>
+      <stop offset="100%" stop-color="#0d203b"/>
+    </linearGradient>
+    <linearGradient id="coralGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff7654"/>
+      <stop offset="100%" stop-color="#f04e23"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="800" height="600" rx="28" fill="url(#skyGrad)"/>
+
+  <!-- Warm Sun and Glow Circles -->
+  <circle cx="680" cy="120" r="80" fill="url(#sunGrad)" opacity="0.85"/>
+  <circle cx="680" cy="120" r="110" fill="#f8b739" opacity="0.2"/>
+  <circle cx="680" cy="120" r="140" fill="#f8b739" opacity="0.08"/>
+
+  <!-- Soft Distant Architecture / School Campus Silhouette -->
+  <path d="M 50 380 L 140 340 L 230 380 L 230 460 L 50 460 Z" fill="#cbe4f9" opacity="0.6"/>
+  <path d="M 130 320 L 150 320 L 150 340 L 130 340 Z" fill="#cbe4f9" opacity="0.6"/>
+  <polygon points="140,300 130,320 150,320" fill="#f04e23" opacity="0.7"/>
+
+  <!-- Rolling Green Lawn Hills -->
+  <path d="M -50 460 Q 200 400 450 450 T 850 420 L 850 600 L -50 600 Z" fill="url(#hillGrad)" opacity="0.9"/>
+  <path d="M -50 490 Q 250 430 550 480 T 850 460 L 850 600 L -50 600 Z" fill="#0d6e42"/>
+
+  <!-- Central Happy Learners & Tree Scene -->
+  <!-- Majestic Tree of Wisdom -->
+  <path d="M 620 480 Q 630 360 660 300 Q 670 360 670 480 Z" fill="#8d5b4c"/>
+  <circle cx="620" cy="270" r="70" fill="#1fb974" opacity="0.9"/>
+  <circle cx="680" cy="250" r="80" fill="#16935b" opacity="0.9"/>
+  <circle cx="650" cy="210" r="60" fill="#2ecc71" opacity="0.95"/>
+  <circle cx="600" cy="240" r="50" fill="#12794b" opacity="0.85"/>
+
+  <!-- Educational & Play Elements Floating Joyfully -->
+  <!-- Open Flying Book -->
+  <g transform="translate(180, 160) rotate(-12)">
+    <rect x="0" y="0" width="70" height="50" rx="4" fill="#ffffff" stroke="#15325b" stroke-width="2"/>
+    <path d="M 35 0 L 35 50" stroke="#15325b" stroke-width="2"/>
+    <line x1="8" y1="12" x2="28" y2="12" stroke="#475569" stroke-width="2" stroke-linecap="round"/>
+    <line x1="8" y1="22" x2="28" y2="22" stroke="#475569" stroke-width="2" stroke-linecap="round"/>
+    <line x1="8" y1="32" x2="24" y2="32" stroke="#475569" stroke-width="2" stroke-linecap="round"/>
+    <line x1="42" y1="12" x2="62" y2="12" stroke="#475569" stroke-width="2" stroke-linecap="round"/>
+    <line x1="42" y1="22" x2="62" y2="22" stroke="#475569" stroke-width="2" stroke-linecap="round"/>
+    <line x1="42" y1="32" x2="58" y2="32" stroke="#475569" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- Colorful ABC Building Blocks -->
+  <g transform="translate(80, 420)">
+    <rect x="0" y="20" width="45" height="45" rx="6" fill="#f04e23"/>
+    <text x="22" y="52" font-family="'Plus Jakarta Sans', sans-serif" font-size="24" font-weight="800" fill="#ffffff" text-anchor="middle">A</text>
+    
+    <rect x="40" y="0" width="45" height="45" rx="6" fill="#f39c12"/>
+    <text x="62" y="32" font-family="'Plus Jakarta Sans', sans-serif" font-size="24" font-weight="800" fill="#ffffff" text-anchor="middle">B</text>
+
+    <rect x="25" y="-35" width="42" height="42" rx="6" fill="#1fb974"/>
+    <text x="46" y="-6" font-family="'Plus Jakarta Sans', sans-serif" font-size="22" font-weight="800" fill="#ffffff" text-anchor="middle">C</text>
+  </g>
+
+  <!-- Happy Boy Student Character -->
+  <g transform="translate(260, 310)">
+    <!-- Shadow -->
+    <ellipse cx="60" cy="185" rx="45" ry="12" fill="rgba(7,19,36,0.15)"/>
+    <!-- Legs / Trousers -->
+    <rect x="42" y="110" width="14" height="65" rx="6" fill="#15325b"/>
+    <rect x="64" y="110" width="14" height="65" rx="6" fill="#15325b"/>
+    <!-- Shoes -->
+    <rect x="36" y="170" width="22" height="12" rx="4" fill="#0d203b"/>
+    <rect x="62" y="170" width="22" height="12" rx="4" fill="#0d203b"/>
+    <!-- Uniform Shirt -->
+    <path d="M 32 55 L 88 55 L 82 115 L 38 115 Z" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+    <polygon points="54,55 60,78 66,55" fill="#f04e23"/>
+    <!-- Arms Joyfully Raised -->
+    <path d="M 34 60 L 10 30 Q 8 22 18 20 L 38 48" fill="#fcd3b2"/>
+    <path d="M 86 60 L 110 30 Q 112 22 102 20 L 82 48" fill="#fcd3b2"/>
+    <!-- Head & Cheerful Face -->
+    <circle cx="60" cy="28" r="24" fill="#fcd3b2"/>
+    <!-- Smile & Eyes -->
+    <circle cx="53" cy="26" r="3" fill="#0d203b"/>
+    <circle cx="67" cy="26" r="3" fill="#0d203b"/>
+    <path d="M 53 35 Q 60 44 67 35" stroke="#f04e23" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <!-- Hair -->
+    <path d="M 38 25 C 38 6 82 6 82 25 C 75 14 45 14 38 25 Z" fill="#1e293b"/>
+  </g>
+
+  <!-- Happy Girl Student Character -->
+  <g transform="translate(420, 320)">
+    <!-- Shadow -->
+    <ellipse cx="60" cy="175" rx="45" ry="12" fill="rgba(7,19,36,0.15)"/>
+    <!-- Legs -->
+    <rect x="44" y="115" width="12" height="50" rx="5" fill="#fcd3b2"/>
+    <rect x="64" y="115" width="12" height="50" rx="5" fill="#fcd3b2"/>
+    <!-- Shoes -->
+    <rect x="38" y="160" width="20" height="12" rx="4" fill="#0d203b"/>
+    <rect x="62" y="160" width="20" height="12" rx="4" fill="#0d203b"/>
+    <!-- Pinafore / Uniform Dress -->
+    <path d="M 36 60 L 84 60 L 92 120 L 28 120 Z" fill="#15325b"/>
+    <!-- Shirt collar -->
+    <polygon points="50,60 60,74 70,60" fill="#ffffff"/>
+    <polygon points="56,60 60,78 64,60" fill="#f8b739"/>
+    <!-- Arm holding telescope/book -->
+    <path d="M 34 65 L 12 85 Q 15 95 26 90 L 40 75" fill="#fcd3b2"/>
+    <path d="M 84 65 L 105 50 Q 112 55 105 65 L 86 80" fill="#fcd3b2"/>
+    <!-- Head & Cheerful Face -->
+    <circle cx="60" cy="28" r="22" fill="#fcd3b2"/>
+    <!-- Smile & Eyes -->
+    <circle cx="53" cy="26" r="2.5" fill="#0d203b"/>
+    <circle cx="67" cy="26" r="2.5" fill="#0d203b"/>
+    <path d="M 54 34 Q 60 42 66 34" stroke="#f04e23" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <!-- Hair with Cute Pigtails & Ribbons -->
+    <path d="M 38 25 C 38 8 82 8 82 25 C 75 14 45 14 38 25 Z" fill="#3e2723"/>
+    <!-- Left Pigtail & Ribbon -->
+    <circle cx="34" cy="24" r="7" fill="#f04e23"/>
+    <path d="M 30 25 Q 16 35 22 55 Q 32 45 32 30 Z" fill="#3e2723"/>
+    <!-- Right Pigtail & Ribbon -->
+    <circle cx="86" cy="24" r="7" fill="#f04e23"/>
+    <path d="M 90 25 Q 104 35 98 55 Q 88 45 88 30 Z" fill="#3e2723"/>
+  </g>
+
+  <!-- Floating Sparkles & Science Atoms -->
+  <g transform="translate(360, 100)">
+    <circle cx="0" cy="0" r="6" fill="#f39c12"/>
+    <ellipse cx="0" cy="0" rx="30" ry="10" fill="none" stroke="#3b7bd5" stroke-width="1.5" transform="rotate(30)"/>
+    <ellipse cx="0" cy="0" rx="30" ry="10" fill="none" stroke="#1fb974" stroke-width="1.5" transform="rotate(-30)"/>
+    <circle cx="20" cy="12" r="3" fill="#f04e23"/>
+    <circle cx="-18" cy="-14" r="3" fill="#3b7bd5"/>
+  </g>
+
+  <!-- Graduation Cap Floating -->
+  <g transform="translate(510, 140) rotate(15)">
+    <polygon points="30,5 60,18 30,31 0,18" fill="#0d203b"/>
+    <polygon points="12,24 12,38 48,38 48,24 30,31" fill="#15325b"/>
+    <line x1="30" y1="18" x2="52" y2="30" stroke="#f8b739" stroke-width="2"/>
+    <circle cx="52" cy="30" r="3" fill="#f8b739"/>
+  </g>
+</svg>

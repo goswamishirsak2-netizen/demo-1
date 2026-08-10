@@ -1,0 +1,977 @@
+/* ==========================================================================
+   MUKUL BITHI SCHOOL - MOBILE & ANDROID RESPONSIVE STYLESHEET
+   Optimized specifically for Android smartphones & tablets (320px to 992px)
+   WITHOUT altering or impacting the desktop layout.
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   1. LAPTOP & MEDIUM SCREENS (993px - 1180px)
+   -------------------------------------------------------------------------- */
+@media (max-width: 1180px) {
+  .nav-menu {
+    gap: 4px;
+  }
+
+  .nav-link {
+    padding: 6px 10px;
+    font-size: 0.875rem;
+  }
+
+  .pillars-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .footer-grid {
+    grid-template-columns: 1.2fr 0.8fr 1fr 1fr;
+    gap: 32px;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   2. TABLETS & LARGE FOLDABLES (769px - 992px)
+   -------------------------------------------------------------------------- */
+@media (max-width: 992px) {
+  /* Navbar */
+  .nav-menu,
+  .nav-actions .btn-primary {
+    display: none;
+  }
+
+  .hamburger {
+    display: flex;
+    width: 46px;
+    height: 46px;
+  }
+
+  /* Hero */
+  .hero-section {
+    padding-top: clamp(100px, 12vw, 130px);
+    padding-bottom: clamp(48px, 6vw, 70px);
+  }
+
+  .hero-grid {
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: 36px;
+  }
+
+  .hero-desc {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero-cta-group {
+    justify-content: center;
+  }
+
+  .hero-visual {
+    max-width: 520px;
+    margin: 0 auto;
+  }
+
+  .hero-chip--top {
+    top: 12px;
+    right: 12px;
+  }
+
+  .hero-chip--bottom {
+    bottom: 12px;
+    left: 12px;
+  }
+
+  /* Trust Strip */
+  .trust-strip {
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 40px;
+    padding: 20px;
+  }
+
+  .trust-item:nth-child(2) {
+    border-right: none;
+  }
+
+  .trust-item:nth-child(3) {
+    border-top: 1px solid var(--border-subtle);
+    padding-top: 16px;
+  }
+
+  .trust-item:nth-child(4) {
+    border-top: 1px solid var(--border-subtle);
+    border-right: none;
+    padding-top: 16px;
+  }
+
+  /* About */
+  .about-grid {
+    grid-template-columns: 1fr;
+    gap: 36px;
+  }
+
+  .about-visual {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  .about-content {
+    text-align: center;
+  }
+
+  .about-content .section-header--left {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .about-points {
+    text-align: left;
+    max-width: 520px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* Stats */
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+  }
+
+  /* Why Us */
+  .why-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  /* Academics */
+  .academics-panel-grid {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+
+  .academics-panel-media {
+    order: -1;
+    height: 240px;
+  }
+
+  /* Activities & Facilities */
+  .activity-grid,
+  .facility-grid,
+  .gallery-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  /* Admissions & Contact */
+  .admissions-grid,
+  .contact-grid {
+    grid-template-columns: 1fr;
+    gap: 36px;
+  }
+
+  .map-wrapper {
+    min-height: 320px;
+  }
+
+  /* Footer */
+  .footer-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 36px;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   3. MOBILE PHONES (320px - 768px)
+   -------------------------------------------------------------------------- */
+@media (max-width: 768px) {
+  :root {
+    --container-pad: 20px;
+  }
+
+  /* Enforce horizontal containment */
+  html, body {
+    overflow-x: hidden;
+    width: 100%;
+    max-width: 100vw;
+  }
+
+  .container {
+    padding-left: var(--container-pad);
+    padding-right: var(--container-pad);
+  }
+
+  /* Section Spacing */
+  .section {
+    padding-top: clamp(48px, 9vw, 68px);
+    padding-bottom: clamp(48px, 9vw, 68px);
+  }
+
+  .section-header {
+    margin-bottom: 32px;
+  }
+
+  /* Typography Refinements for Mobile */
+  h1 {
+    font-size: clamp(2rem, 7.5vw, 2.6rem);
+    line-height: 1.18;
+    letter-spacing: -0.025em;
+  }
+
+  h2, .section-title {
+    font-size: clamp(1.65rem, 5.8vw, 2.1rem);
+    line-height: 1.22;
+  }
+
+  h3 {
+    font-size: clamp(1.2rem, 4.5vw, 1.45rem);
+  }
+
+  .section-lead {
+    font-size: 0.95rem;
+    line-height: 1.65;
+  }
+
+  p {
+    font-size: 0.925rem;
+    line-height: 1.65;
+  }
+
+  /* Mobile Navbar */
+  .site-header {
+    padding: 12px 0;
+  }
+
+  .site-header.is-scrolled {
+    padding: 10px 0;
+  }
+
+  .brand-logo {
+    gap: 10px;
+  }
+
+  .brand-emblem {
+    width: 40px;
+    height: 40px;
+    border-radius: var(--radius-sm);
+  }
+
+  .brand-title {
+    font-size: 1.1rem;
+  }
+
+  .brand-subtitle {
+    font-size: 0.65rem;
+    letter-spacing: 0.04em;
+  }
+
+  .hamburger {
+    width: 44px;
+    height: 44px;
+    padding: 8px;
+    border-radius: var(--radius-sm);
+  }
+
+  /* Mobile Drawer (100dvh for Android address bar handling) */
+  .mobile-nav {
+    width: 85%;
+    max-width: 320px;
+    height: 100vh;
+    height: 100dvh;
+    padding: 20px 18px;
+    padding-top: max(20px, env(safe-area-inset-top));
+    padding-bottom: max(20px, env(safe-area-inset-bottom));
+  }
+
+  .mobile-nav-header {
+    margin-bottom: 20px;
+    padding-bottom: 12px;
+  }
+
+  .mobile-nav-close {
+    width: 40px;
+    height: 40px;
+    font-size: 1.4rem;
+  }
+
+  .mobile-nav-links {
+    gap: 4px;
+    margin-bottom: 24px;
+  }
+
+  .mobile-nav-links .nav-link {
+    font-size: 0.95rem;
+    padding: 10px 14px;
+    min-height: 44px;
+    display: flex;
+    align-items: center;
+  }
+
+  /* Hero Section on Mobile */
+  .hero-section {
+    padding-top: 96px;
+    padding-bottom: 44px;
+  }
+
+  .hero-headline {
+    font-size: clamp(2rem, 7.5vw, 2.6rem);
+    margin-bottom: 16px;
+  }
+
+  .hero-desc {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 24px;
+  }
+
+  .hero-cta-group {
+    flex-direction: column;
+    width: 100%;
+    gap: 12px;
+    margin-bottom: 28px;
+  }
+
+  .hero-cta-group .btn {
+    width: 100%;
+    min-height: 48px;
+    padding: 14px 20px;
+    font-size: 0.95rem;
+  }
+
+  /* Hero Image Container on Mobile */
+  .hero-card-composite {
+    padding: 8px;
+    border-radius: var(--radius-lg);
+  }
+
+  .hero-image-wrap {
+    height: clamp(230px, 58vw, 320px);
+    border-radius: var(--radius-md);
+  }
+
+  /* Hero Floating Chips - Pinned inside safely */
+  .hero-chip {
+    padding: 8px 12px;
+    border-radius: var(--radius-sm);
+    gap: 8px;
+    box-shadow: 0 8px 20px rgba(13, 32, 59, 0.15);
+  }
+
+  .hero-chip--top {
+    top: 10px;
+    right: 10px;
+  }
+
+  .hero-chip--bottom {
+    bottom: 10px;
+    left: 10px;
+  }
+
+  .hero-chip-icon {
+    width: 32px;
+    height: 32px;
+    font-size: 0.9rem;
+  }
+
+  .hero-chip-title {
+    font-size: 0.8rem;
+  }
+
+  .hero-chip-sub {
+    font-size: 0.675rem;
+  }
+
+  /* Trust Strip on Mobile */
+  .trust-strip {
+    grid-template-columns: 1fr;
+    gap: 8px;
+    margin-top: 28px;
+    padding: 16px;
+  }
+
+  .trust-item {
+    border-right: none !important;
+    border-top: 1px solid var(--border-subtle);
+    padding: 10px 0;
+    gap: 12px;
+  }
+
+  .trust-item:first-child {
+    border-top: none;
+    padding-top: 0;
+  }
+
+  .trust-icon {
+    width: 38px;
+    height: 38px;
+    font-size: 1rem;
+  }
+
+  .trust-text {
+    font-size: 0.875rem;
+  }
+
+  /* About Section on Mobile */
+  .about-image-card {
+    border-radius: var(--radius-lg);
+    border-width: 3px;
+  }
+
+  .about-image-wrap {
+    height: clamp(230px, 55vw, 300px);
+  }
+
+  .about-badge-card {
+    right: 10px;
+    bottom: 10px;
+    padding: 10px 14px;
+    border-radius: var(--radius-md);
+    gap: 10px;
+  }
+
+  .about-badge-icon {
+    width: 36px;
+    height: 36px;
+    font-size: 1.1rem;
+  }
+
+  .about-badge-num {
+    font-size: 1.15rem;
+  }
+
+  .about-badge-lbl {
+    font-size: 0.725rem;
+  }
+
+  .about-points {
+    grid-template-columns: 1fr;
+    gap: 12px;
+    margin: 20px 0 28px 0;
+  }
+
+  .about-point-text {
+    font-size: 0.9rem;
+  }
+
+  .about-content .btn {
+    width: 100%;
+    min-height: 48px;
+  }
+
+  /* Statistics on Mobile */
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 14px;
+  }
+
+  .stat-card {
+    padding: 20px 14px;
+    border-radius: var(--radius-md);
+  }
+
+  .stat-number {
+    font-size: clamp(1.85rem, 6vw, 2.3rem);
+    margin-bottom: 4px;
+  }
+
+  .stat-title {
+    font-size: 0.925rem;
+  }
+
+  .stat-desc {
+    font-size: 0.775rem;
+  }
+
+  /* Why Us Cards on Mobile */
+  .why-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .why-card {
+    padding: 24px 20px;
+    border-radius: var(--radius-md);
+  }
+
+  .why-icon-box {
+    width: 48px;
+    height: 48px;
+    font-size: 1.35rem;
+    margin-bottom: 14px;
+  }
+
+  .why-title {
+    font-size: 1.125rem;
+    margin-bottom: 8px;
+  }
+
+  .why-text {
+    font-size: 0.9rem;
+  }
+
+  /* Academics on Mobile */
+  .academics-tabs-nav {
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 24px;
+  }
+
+  .academics-tab-btn {
+    width: 100%;
+    padding: 12px 16px;
+    font-size: 0.9rem;
+    min-height: 46px;
+  }
+
+  .academics-panel {
+    padding: 22px 18px;
+    border-radius: var(--radius-lg);
+  }
+
+  .academics-panel-media {
+    height: 190px;
+    border-radius: var(--radius-md);
+  }
+
+  .academics-panel-title {
+    font-size: 1.3rem;
+  }
+
+  .academics-panel-desc {
+    font-size: 0.9rem;
+    margin-bottom: 18px;
+  }
+
+  .academics-pillars-list {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .academics-pillar-item {
+    padding: 10px 14px;
+    font-size: 0.85rem;
+  }
+
+  /* 6 Pillars on Mobile */
+  .pillars-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+
+  .pillar-card {
+    padding: 20px 12px;
+    border-radius: var(--radius-md);
+  }
+
+  .pillar-icon {
+    width: 44px;
+    height: 44px;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+
+  .pillar-name {
+    font-size: 0.95rem;
+    margin-bottom: 4px;
+  }
+
+  .pillar-desc {
+    font-size: 0.775rem;
+    line-height: 1.4;
+  }
+
+  /* Activities & Facilities on Mobile */
+  .activity-grid,
+  .facility-grid {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
+  .activity-media {
+    height: 190px;
+  }
+
+  .activity-body,
+  .facility-content {
+    padding: 18px;
+  }
+
+  .activity-title,
+  .facility-title {
+    font-size: 1.1rem;
+  }
+
+  .activity-desc,
+  .facility-desc {
+    font-size: 0.875rem;
+  }
+
+  .facility-media {
+    height: 180px;
+  }
+
+  /* Gallery & Lightbox on Mobile */
+  .gallery-filters {
+    gap: 6px;
+    margin-bottom: 24px;
+  }
+
+  .filter-btn {
+    padding: 7px 14px;
+    font-size: 0.8rem;
+    min-height: 38px;
+  }
+
+  .gallery-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
+  .gallery-item {
+    height: clamp(140px, 38vw, 190px);
+    border-radius: var(--radius-sm);
+  }
+
+  .gallery-overlay {
+    padding: 10px;
+  }
+
+  .gallery-item-title {
+    font-size: 0.85rem;
+    margin-bottom: 2px;
+  }
+
+  .gallery-item-cat {
+    font-size: 0.65rem;
+  }
+
+  /* Lightbox Modal on Mobile */
+  .lightbox-modal {
+    padding: 12px;
+    padding-top: max(16px, env(safe-area-inset-top));
+    padding-bottom: max(16px, env(safe-area-inset-bottom));
+  }
+
+  .lightbox-img-wrap {
+    max-height: 65vh;
+    max-height: 65dvh;
+  }
+
+  .lightbox-img-wrap img {
+    max-height: 65vh;
+    max-height: 65dvh;
+    max-width: 95vw;
+  }
+
+  .lightbox-caption {
+    font-size: 0.9rem;
+    margin-top: 12px;
+    padding: 0 10px;
+  }
+
+  .lightbox-counter {
+    font-size: 0.775rem;
+  }
+
+  .lightbox-close {
+    top: -42px;
+    right: 0;
+    width: 44px;
+    height: 44px;
+    font-size: 1.6rem;
+  }
+
+  .lightbox-prev,
+  .lightbox-next {
+    width: 44px;
+    height: 44px;
+    font-size: 1.2rem;
+  }
+
+  .lightbox-prev {
+    left: 4px;
+  }
+
+  .lightbox-next {
+    right: 4px;
+  }
+
+  /* Admissions Form on Mobile */
+  .steps-container {
+    gap: 14px;
+    margin-top: 24px;
+  }
+
+  .step-card {
+    padding: 16px;
+    gap: 14px;
+    border-radius: var(--radius-sm);
+  }
+
+  .step-number {
+    font-size: 1.1rem;
+  }
+
+  .step-title {
+    font-size: 0.95rem;
+  }
+
+  .step-desc {
+    font-size: 0.825rem;
+  }
+
+  .admissions-form-card {
+    padding: 24px 18px;
+    border-radius: var(--radius-lg);
+  }
+
+  .form-grid {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+
+  /* Form Input Touch Optimization (font-size: 16px prevents iOS/Android auto-zoom) */
+  .form-input,
+  .form-select,
+  .form-textarea {
+    min-height: 48px;
+    font-size: 16px;
+    padding: 12px 14px;
+    border-radius: var(--radius-sm);
+  }
+
+  .form-textarea {
+    min-height: 80px;
+  }
+
+  .form-label {
+    font-size: 0.825rem;
+  }
+
+  /* Success Modal on Mobile */
+  .success-card {
+    padding: 28px 20px;
+    border-radius: var(--radius-lg);
+  }
+
+  .success-icon {
+    width: 58px;
+    height: 58px;
+    font-size: 1.8rem;
+    margin-bottom: 14px;
+  }
+
+  /* Testimonials Carousel on Mobile */
+  .testimonials-slider-wrap {
+    padding: 0 4px;
+  }
+
+  .testimonial-card {
+    padding: 26px 18px;
+    border-radius: var(--radius-lg);
+  }
+
+  .testimonial-stars {
+    font-size: 1.05rem;
+    margin-bottom: 14px;
+  }
+
+  .testimonial-quote {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+
+  .testimonial-author-name {
+    font-size: 0.95rem;
+  }
+
+  .testimonial-author-role {
+    font-size: 0.775rem;
+  }
+
+  .carousel-nav-btn {
+    width: 38px;
+    height: 38px;
+    font-size: 1rem;
+  }
+
+  .carousel-dots {
+    margin-top: 20px;
+  }
+
+  /* FAQ Accordion on Mobile */
+  .faq-wrap {
+    gap: 10px;
+  }
+
+  .faq-trigger {
+    padding: 16px 18px;
+    font-size: 0.925rem;
+    min-height: 52px;
+  }
+
+  .faq-body {
+    padding: 0 18px;
+  }
+
+  .faq-item.is-open .faq-body {
+    padding: 0 18px 16px 18px;
+  }
+
+  .faq-body p {
+    font-size: 0.875rem;
+  }
+
+  /* Contact Section on Mobile */
+  .contact-info-cards {
+    gap: 14px;
+  }
+
+  .contact-card {
+    padding: 18px 16px;
+    gap: 14px;
+    border-radius: var(--radius-md);
+  }
+
+  .contact-icon {
+    width: 42px;
+    height: 42px;
+    font-size: 1.15rem;
+  }
+
+  .contact-details h4 {
+    font-size: 0.95rem;
+  }
+
+  .contact-details p {
+    font-size: 0.85rem;
+  }
+
+  .map-wrapper {
+    min-height: 260px;
+    border-radius: var(--radius-lg);
+  }
+
+  .map-frame {
+    min-height: 260px;
+  }
+
+  /* Closing CTA Banner on Mobile */
+  .cta-banner {
+    padding: 36px 20px;
+    border-radius: var(--radius-lg);
+  }
+
+  .cta-headline {
+    font-size: clamp(1.6rem, 5.5vw, 2.1rem);
+    margin-bottom: 12px;
+  }
+
+  .cta-desc {
+    font-size: 0.925rem;
+    margin-bottom: 24px;
+  }
+
+  .cta-buttons {
+    flex-direction: column;
+    width: 100%;
+    gap: 12px;
+  }
+
+  .cta-buttons .btn {
+    width: 100%;
+    min-height: 48px;
+  }
+
+  /* Footer on Mobile */
+  .site-footer {
+    padding-top: 48px;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 28px;
+    margin-bottom: 36px;
+  }
+
+  .footer-brand p {
+    max-width: 100%;
+    font-size: 0.875rem;
+  }
+
+  .footer-title {
+    font-size: 1rem;
+    margin-bottom: 14px;
+  }
+
+  .footer-links a,
+  .footer-contact-item {
+    font-size: 0.875rem;
+  }
+
+  .social-btn {
+    width: 44px;
+    height: 44px;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    font-size: 0.775rem;
+    padding: 20px 0;
+  }
+
+  /* Floating Action Buttons with Safe Area */
+  .floating-actions {
+    bottom: max(16px, env(safe-area-inset-bottom));
+    right: 16px;
+    gap: 10px;
+  }
+
+  .floating-btn {
+    width: 48px;
+    height: 48px;
+    font-size: 1.25rem;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   4. ULTRA-COMPACT ANDROID PHONES (< 360px - e.g., Galaxy Fold, small screen)
+   -------------------------------------------------------------------------- */
+@media (max-width: 360px) {
+  :root {
+    --container-pad: 14px;
+  }
+
+  .brand-title {
+    font-size: 0.95rem;
+  }
+
+  .brand-subtitle {
+    font-size: 0.6rem;
+  }
+
+  .brand-emblem {
+    width: 36px;
+    height: 36px;
+  }
+
+  .stats-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .pillars-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-headline {
+    font-size: 1.85rem;
+  }
+
+  .section-title {
+    font-size: 1.5rem;
+  }
+}

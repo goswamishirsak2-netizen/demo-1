@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="gal3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" rx="12" fill="url(#gal3)"/>
+
+  <!-- Solar System & Science Fair Display Model -->
+  <!-- Sun -->
+  <circle cx="100" cy="200" r="50" fill="#f59e0b"/>
+  <circle cx="100" cy="200" r="70" fill="#fbbf24" opacity="0.2"/>
+
+  <!-- Orbits & Planets -->
+  <ellipse cx="100" cy="200" rx="160" ry="120" fill="none" stroke="#475569" stroke-width="1.5" stroke-dasharray="4,4"/>
+  <circle cx="230" cy="130" r="14" fill="#38bdf8"/> <!-- Earth -->
+  <circle cx="245" cy="120" r="4" fill="#f8fafc"/> <!-- Moon -->
+
+  <ellipse cx="100" cy="200" rx="260" ry="160" fill="none" stroke="#475569" stroke-width="1.5" stroke-dasharray="4,4"/>
+  <circle cx="340" cy="260" r="22" fill="#fb923c"/> <!-- Saturn -->
+  <!-- Saturn Rings -->
+  <ellipse cx="340" cy="260" rx="36" ry="10" fill="none" stroke="#fed7aa" stroke-width="4" transform="rotate(-20 340 260)"/>
+
+  <!-- Science Project Title Board -->
+  <rect x="220" y="30" width="340" height="60" rx="8" fill="#1e3a8a" stroke="#60a5fa" stroke-width="2"/>
+  <text x="390" y="66" font-family="'Plus Jakarta Sans', sans-serif" font-size="18" font-weight="800" fill="#ffffff" text-anchor="middle">Young Innovators Science Expo</text>
+</svg>

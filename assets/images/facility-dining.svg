@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="fc6Bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f0fdfa"/>
+      <stop offset="100%" stop-color="#ccfbf1"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" rx="16" fill="url(#fc6Bg)"/>
+
+  <!-- Clean RO Water & Hygienic Dining -->
+  <!-- Pure Water Droplet -->
+  <g transform="translate(140, 100)">
+    <path d="M 60 20 Q 20 80 20 120 C 20 160 50 190 90 190 C 130 190 160 160 160 120 Q 160 80 120 20 Z" fill="#06b6d4"/>
+    <path d="M 65 60 Q 40 100 40 130" fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="round" opacity="0.6"/>
+  </g>
+
+  <!-- Clean Meal Tray & Fruits -->
+  <g transform="translate(320, 140)">
+    <!-- Serving Plate -->
+    <ellipse cx="80" cy="110" rx="90" ry="40" fill="#ffffff" stroke="#94a3b8" stroke-width="3"/>
+    <!-- Fresh Apple -->
+    <circle cx="50" cy="95" r="22" fill="#ef4444"/>
+    <path d="M 50 73 Q 56 65 60 62" stroke="#78350f" stroke-width="3" fill="none"/>
+    <path d="M 60 65 Q 70 65 68 72 Z" fill="#22c55e"/>
+    <!-- Healthy Glass of Milk / Juice -->
+    <polygon points="100,60 130,60 125,120 105,120" fill="#ffffff" stroke="#94a3b8" stroke-width="2"/>
+    <polygon points="103,75 127,75 123,116 107,116" fill="#f59e0b" opacity="0.75"/>
+  </g>
+</svg>

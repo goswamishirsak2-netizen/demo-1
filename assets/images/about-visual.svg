@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 550" width="100%" height="100%">
+  <defs>
+    <linearGradient id="aboutBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d203b"/>
+      <stop offset="60%" stop-color="#15325b"/>
+      <stop offset="100%" stop-color="#1e457b"/>
+    </linearGradient>
+    <linearGradient id="warmGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f8b739"/>
+      <stop offset="100%" stop-color="#f04e23"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="700" height="550" rx="24" fill="url(#aboutBg)"/>
+
+  <!-- Classroom Whiteboard & Modern Smartboard -->
+  <rect x="70" y="50" width="560" height="240" rx="14" fill="#ffffff" stroke="#cbd5e1" stroke-width="4"/>
+  <rect x="85" y="65" width="530" height="210" rx="8" fill="#f8fafc"/>
+  
+  <!-- Educational Diagrams on Smartboard -->
+  <text x="350" y="110" font-family="'Plus Jakarta Sans', sans-serif" font-size="22" font-weight="800" fill="#0d203b" text-anchor="middle">Mukul Bithi Holistic Foundation</text>
+  <line x1="180" y1="125" x2="520" y2="125" stroke="#f04e23" stroke-width="2.5"/>
+
+  <!-- Math & Science Equations on Board -->
+  <text x="120" y="170" font-family="'Plus Jakarta Sans', sans-serif" font-size="16" font-weight="700" fill="#12794b">✓ Curiosity & Discovery</text>
+  <text x="120" y="205" font-family="'Plus Jakarta Sans', sans-serif" font-size="16" font-weight="700" fill="#15325b">✓ Critical Thinking & Values</text>
+  <text x="120" y="240" font-family="'Plus Jakarta Sans', sans-serif" font-size="16" font-weight="700" fill="#c97204">✓ Confident Expression</text>
+
+  <!-- Interactive Smart Graph -->
+  <g transform="translate(420, 150)">
+    <rect x="0" y="0" width="160" height="95" rx="8" fill="#eef3fb"/>
+    <!-- Growth curve -->
+    <path d="M 15 80 Q 60 70 90 40 T 145 15" fill="none" stroke="#f04e23" stroke-width="3.5" stroke-linecap="round"/>
+    <circle cx="145" cy="15" r="5" fill="#f04e23"/>
+    <!-- Bar charts -->
+    <rect x="25" y="55" width="14" height="25" rx="3" fill="#3b7bd5"/>
+    <rect x="55" y="40" width="14" height="40" rx="3" fill="#1fb974"/>
+    <rect x="85" y="25" width="14" height="55" rx="3" fill="#f39c12"/>
+    <rect x="115" y="15" width="14" height="65" rx="3" fill="#f04e23"/>
+  </g>
+
+  <!-- Classroom Floor & Round Collaborative Table -->
+  <ellipse cx="350" cy="480" rx="290" ry="60" fill="#071324" opacity="0.6"/>
+  <ellipse cx="350" cy="450" rx="220" ry="40" fill="#fdfbf7"/>
+  <ellipse cx="350" cy="445" rx="200" ry="34" fill="#ede6d8"/>
+
+  <!-- Teacher / Educator Figure (Mentorship) -->
+  <g transform="translate(140, 240)">
+    <!-- Body -->
+    <path d="M 30 110 L 80 110 L 95 240 L 15 240 Z" fill="#12794b"/>
+    <path d="M 40 110 L 70 110 L 75 160 L 35 160 Z" fill="#e7f8ef"/>
+    <!-- Arms pointing at smartboard -->
+    <path d="M 75 125 L 125 70 Q 130 65 140 75 L 85 140" fill="#fcd3b2"/>
+    <!-- Head -->
+    <circle cx="55" cy="65" r="24" fill="#fcd3b2"/>
+    <!-- Glasses -->
+    <circle cx="50" cy="62" r="6" fill="none" stroke="#0d203b" stroke-width="2"/>
+    <circle cx="66" cy="62" r="6" fill="none" stroke="#0d203b" stroke-width="2"/>
+    <line x1="56" y1="62" x2="60" y2="62" stroke="#0d203b" stroke-width="2"/>
+    <!-- Hair Bun -->
+    <circle cx="55" cy="38" r="14" fill="#1e293b"/>
+    <path d="M 36 60 C 36 40 74 40 74 60 Z" fill="#1e293b"/>
+  </g>
+
+  <!-- Eager Students Engaged around Table -->
+  <g transform="translate(320, 340)">
+    <circle cx="30" cy="30" r="18" fill="#fcd3b2"/>
+    <path d="M 12 55 L 48 55 L 54 110 L 6 110 Z" fill="#15325b"/>
+    <path d="M 16 28 C 16 12 44 12 44 28 Z" fill="#1e293b"/>
+  </g>
+
+  <g transform="translate(430, 340)">
+    <circle cx="30" cy="30" r="18" fill="#fcd3b2"/>
+    <path d="M 12 55 L 48 55 L 54 110 L 6 110 Z" fill="#f04e23"/>
+    <path d="M 16 28 C 16 12 44 12 44 28 Z" fill="#3e2723"/>
+    <circle cx="48" cy="28" r="6" fill="#f8b739"/>
+  </g>
+
+  <!-- Books & Art Palette on Table -->
+  <g transform="translate(340, 420)">
+    <rect x="0" y="0" width="40" height="15" rx="3" fill="#3b7bd5"/>
+    <rect x="5" y="-12" width="38" height="12" rx="3" fill="#f39c12"/>
+    <rect x="8" y="-22" width="32" height="10" rx="3" fill="#1fb974"/>
+  </g>
+</svg>
